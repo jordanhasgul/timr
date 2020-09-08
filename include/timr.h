@@ -13,7 +13,7 @@ namespace timr
 	constexpr inline const char* units(nanoseconds)   noexcept { return "nanoseconds";  }
 	constexpr inline const char* units(microseconds)  noexcept { return "microseconds"; }
 	constexpr inline const char* units(milliseconds)  noexcept { return "milliseconds"; }
-	constexpr inline const char* units(seconds)	      noexcept { return "seconds";      }
+	constexpr inline const char* units(seconds)	  noexcept { return "seconds";      }
 
 	template<typename unit = seconds>
 	class Timer
